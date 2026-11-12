@@ -1,0 +1,21 @@
+CREATE TABLE medejoy_sales (
+    transaction_id VARCHAR(30),
+    date DATE,
+    month INT,
+    year INT,
+    distributor VARCHAR(50),
+    district VARCHAR(50),
+    area VARCHAR(30),
+    customer_id VARCHAR(30),
+    channel VARCHAR(20),
+    product_id VARCHAR(30),
+    product_name VARCHAR(100),
+    variant VARCHAR(30),
+    weight VARCHAR(20),
+    qty NUMERIC(15, 4),
+    unit VARCHAR(10),
+    qty_carton NUMERIC(15, 4),
+    price_carton BIGINT,
+    gross_sales NUMERIC(15, 2),
+    is_promotion BOOLEAN
+);
